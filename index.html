@@ -3,44 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <title>Vladislav resumes</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <table cellspacing="15">
-      <tr>
-        <td>
-          <img src="Ava.jpg" alt="Мое фото" width="200" />
-        </td>
-        <td>
+    <div class="container">
+      <div class="info">
+        <img src="Ava.jpg" alt="Мое фото" class="avatar" />
+        <div class="info-text">
           <h1>Владислав Константинов</h1>
-          <p><em>Я хочу сменить свою просфессию на прогаммиста.</em></p>
+          <p>Я хочу сменить свою просфессию на прогаммиста.</p>
           <p>Я люблю играть, слушать ролики по истории</p>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h2>Мои социальные сети</h2>
-    <ul>
-      <li>
-        <a href="https://vk.com/id226540417" target="_blank">Vkontakte</a>
-      </li>
-    </ul>
-    <h2>Мои хобби</h2>
-    <ol>
-      <li>Игры</li>
-      <li>Ролики по истории</li>
-    </ol>
-    <h2>Опыт работы</h2>
-    <table>
-      <tr>
-        <th>Компания</th>
-        <th>Должность</th>
-        <th>Год</th>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
+          <h4>Мои социальные сети</h4>
+          <a href="https://vk.com/id226540417" target="_blank">Vkontakte</a>
+          |
+          <a href="https://github.com/Konstantinov-Vladislav" target="_blank"
+            >Github</a
+          >
+        </div>
+      </div>
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Игры</li>
+          <li>Ролики по истории</li>
+        </ol>
+      </div>
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>ИП Кирсанов</td>
+            <td>Продавец</td>
+            <td>2014-2017</td>
+          </tr>
+          <tr>
+            <td>ГУП Метрополитен</td>
+            <td>Инспектор службы безопасности</td>
+            <td>2017-2019</td>
+          </tr>
+
+          <tr>
+            <td>ООО Регстаэр-СП</td>
+            <td>Товаровед</td>
+            <td>2019-...</td>
+          </tr>
+        </table>
+      </div>
+      <!-- <div class="card bg-red">
+        <h2>Курсы</h2>
+      </div> -->
+    </div>
   </body>
 </html>
